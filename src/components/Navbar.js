@@ -11,7 +11,7 @@ const Navbar = () => {
    
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between border-b-2 border-pink-100 items-center px-4  bg-[#0a192f] text-gray-300'>
+        <div className='fixed w-full h-[80px] flex justify-between border-b-2 border-gray-600 items-center px-4  bg-[#0a192f] text-gray-300'>
             <div>
             <img src={logo} alt="Logo" style={{width: '80px'}} />
             </div>
@@ -22,7 +22,7 @@ const Navbar = () => {
                     <li>Skill</li>
                     <li>Work</li>
                     <li>Contact</li>
-                    <li> <a href="https://drive.google.com/file/d/1pY7uaXhN3P-cHnA8SZ-L-HGXmju5lu3D/view?usp=sharing"> Resume</a></li>
+                    <li> <a href="https://drive.google.com/file/d/1NyaGGWcGIz5CR1T_OibD4X4X8wQjxYBc/view?usp=sharing"> Resume</a></li>
                 </ul>
             {/* Hamburger  */}
             <div onClick={handleClick} className='md:hidden z-10'>

@@ -1,4 +1,6 @@
 import React from 'react';
+import working from '../assets/workImg.jpeg'
+import realEstate from '../assets/realestate.jpg'
 
 const Work = () => {
     return (
@@ -8,17 +10,50 @@ const Work = () => {
                     <p className='text-4xl'>WORK</p>
                     <p className=''>// Visit my recent work</p>
                 </div>
-
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
-                    <div className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                        <div className="">
-                            <span></span>
+                {/* container  */}
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    {/* grid-item  */}
+                    <div  style={{backgroundImage: `url(${working})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                React Js App
+                            </span>
                             <div className="">
                                 <a href="/">
-                                <button></button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                                 </a>
                                 <a href="/">
-                                <button></button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  style={{backgroundImage: `url(${working})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                React Js App
+                            </span>
+                            <div className="">
+                                <a href="/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
+                                </a>
+                                <a href="/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  style={{backgroundImage: `url(${working})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                React Js App
+                            </span>
+                            <div className="">
+                                <a href="/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
+                                </a>
+                                <a href="/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
                                 </a>
                             </div>
                         </div>
