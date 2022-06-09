@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {FaBars, FaTimes, FaGithub,FaLinkedin } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
+import {BsFillPersonLinesFill} from 'react-icons/bs'
 import logo from '../assets/logo2.png'
  
 const Navbar = () => {
@@ -35,9 +36,14 @@ const Navbar = () => {
                 <li className='py-6 text-4xl'>Contact</li>
             </ul>
             {/* social icon  */}
-            <div className='flex fixed flex-col top-[40%] left-0'>
-
-            </div>
+            {/* <div className='flex fixed flex-col top-[40%] left-0'>
+                <ul>
+                    <li><a href="/">Linkedin </a></li>
+                    <li><a href="/">Facebook </a></li>
+                    <li><a href="/">Github </a></li>
+                    <li><a href="/">Email </a></li>
+                </ul>
+            </div> */}
         </div>
     );
 };
