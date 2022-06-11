@@ -1,23 +1,19 @@
-import About from "./components/About";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
-import Contact from "./components/Contact";
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './components/HomePage';
+import PrivateService from './components/PrivateService';
 
 
-function App() {
-  return (
-    <div>
-      <Navbar></Navbar>
-      <Home></Home>
-      <About></About>
-      <Skills></Skills>
-      <Work></Work>
-      <Contact></Contact>
-      
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            <Routes>
+                <Route path='/' element={<HomePage></HomePage>}></Route>
+                <Route path='/privateService' element={<PrivateService></PrivateService>}></Route>
+            </Routes>
+       
+        </div>
+    );
+};
 
 export default App;

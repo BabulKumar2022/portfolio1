@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import {FaBars, FaTimes, FaGithub,FaLinkedin } from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from '../assets/logo2.png'
 import {Link} from 'react-scroll'
  
@@ -37,15 +35,7 @@ const Navbar = () => {
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="work" smooth={true} duration={500}>Work</Link></li>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="contact" smooth={true} duration={500} >Contact</Link></li>
             </ul>
-            {/* social icon  */}
-            {/* <div className='flex fixed flex-col top-[40%] left-0'>
-                <ul>
-                    <li><a href="/">Linkedin </a></li>
-                    <li><a href="/">Facebook </a></li>
-                    <li><a href="/">Github </a></li>
-                    <li><a href="/">Email </a></li>
-                </ul>
-            </div> */}
+
         </div>
     );
 };

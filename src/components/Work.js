@@ -3,6 +3,7 @@ import tutorService from '../assets/privateService.jpg'
 import LaptopVill from '../assets/laptopVill.jpg'
 import warehouse from '../assets/warehouseMange.jpg'
 import toolsManu from '../assets/toolsManufac.jpg'
+import { Link } from 'react-router-dom';
 
 const Work = () => {
     return (
@@ -21,9 +22,9 @@ const Work = () => {
                               Private services provide
                             </span>
                             <div className="">
-                                <a href="https://stately-mousse-81ce0a.netlify.app/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
-                                </a>
+                                <Link to="/privateService">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Details</button>
+                                </Link>
                                 <a href="https://github.com/BabulKumar2022/private-tutor-assign-10">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
                                 </a>

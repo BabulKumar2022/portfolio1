@@ -7,7 +7,6 @@ const Home = () => {
     return (
         <div name="home" className='w-full h-screen bg-[#0a192f] grid sm:grid-cols-1 md:grid-cols-2 px-8 gap-4'>
             <div className="bg-no-repeat bg-center  " style={{backgroundImage: `url(${heropic})`  }}>
-            
             </div>
            
             <div className="max-w-[500px] mx-auto px-2 flex flex-col justify-center h-full ">
@@ -20,10 +19,6 @@ const Home = () => {
                      <button  className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600'><Link  to="work" smooth={true} duration={500}>View Work</Link><HiArrowNarrowRight></HiArrowNarrowRight> </button> </a>
                 </div>
             </div>
-
-            
-
-
         </div>
     );
 };
