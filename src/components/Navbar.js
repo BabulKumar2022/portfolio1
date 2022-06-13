@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from '../assets/logo2.png'
 import {Link} from 'react-scroll'
+import { NavHashLink } from 'react-router-hash-link';
  
 const Navbar = () => {
     const [nav, setNav]= useState(false);
@@ -16,12 +17,13 @@ const Navbar = () => {
             </div>
           {/* menu */}
                 <ul className=" hidden md:flex">
+                    <li> <NavHashLink to="/blogs#" > Blogs</NavHashLink></li>
                     <li><Link  to="home" smooth={true} duration={500}>Home</Link></li>
                     <li><Link  to="about" smooth={true} duration={500}>About</Link></li>
                     <li><Link  to="skill" smooth={true} duration={500}>Skill</Link></li>
                     <li><Link  to="work" smooth={true} duration={500}>Work</Link></li>
                     <li><Link  to="contact" smooth={true} duration={500} >Contact</Link></li>
-                    <li> <a href="https://drive.google.com/file/d/1NyaGGWcGIz5CR1T_OibD4X4X8wQjxYBc/view?usp=sharing"> Resume</a></li>
+                    <li> <a href="https://drive.google.com/file/d/1RaBX2QyBxzD0I3W5Nn8khH9Zay7Y0Kly/view?usp=sharing"> Resume</a></li>
                 </ul>
             {/* Hamburger  */}
             <div onClick={handleClick} className='md:hidden z-10'>

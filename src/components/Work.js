@@ -31,6 +31,41 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
+                    {/* ----------------- */}
+                    <div  style={{backgroundImage: `url(${toolsManu})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            Tools manufacture 
+                            </span>
+                            <div className="">
+                            <Link to="/toolsManufacture">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Details</button>
+                                </Link>
+                                <a href="https://github.com/BabulKumar2022/-tools-maufac-client-assign-12">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* ------------------- */}
+                    <div  style={{backgroundImage: `url(${warehouse})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                             Warehouse management apps
+                            </span>
+                            <div className="">
+                            <Link to="/stockManage">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Details</button>
+                                </Link>
+                                <a href="https://github.com/BabulKumar2022/warehouse-client-assign-11">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* ------------------- */}
                     <div  style={{backgroundImage: `url(${LaptopVill})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className='text-2xl font-bold text-white tracking-wider'>
@@ -46,38 +81,7 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
-                    <div  style={{backgroundImage: `url(${warehouse})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                        <div className="opacity-0 group-hover:opacity-100">
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                             Warehouse management apps
-                            </span>
-                            <div className="">
-                                <a href="https://email-pass-auth-623d3.firebaseapp.com/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
-                                </a>
-                                <a href="https://github.com/BabulKumar2022/warehouse-client-assign-11">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div  style={{backgroundImage: `url(${toolsManu})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                        <div className="opacity-0 group-hover:opacity-100">
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                            Tools manufacture 
-                            </span>
-                            <div className="">
-                                <a href="https://tools-trade-16920.web.app/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
-                                </a>
-                                <a href="https://github.com/BabulKumar2022/-tools-maufac-client-assign-12">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-
             </div>
         </div>
     );
