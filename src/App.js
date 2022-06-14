@@ -5,12 +5,13 @@ import HomePage from './components/HomePage';
 import PrivateService from './components/PrivateService';
 import StoreManage from './components/StoreManage';
 import ToolsManufacture from './components/ToolsManufacture';
-import Work from './components/Work';
+
 
 
 const App = () => {
     return (
-        <div>
+        <div className='App'>
+
             <Routes>
                 <Route path='/' element={<HomePage></HomePage>}></Route>
                 <Route path='/privateService' element={<PrivateService></PrivateService>}></Route>

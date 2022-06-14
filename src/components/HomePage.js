@@ -5,11 +5,13 @@ import Work from "./Work";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Particle from "./Particle";
 
 
-function HomePage() {
+const HomePage = () => {
   return (
     <div>
+      <Particle></Particle>
       <Navbar></Navbar>
       <Home></Home>
       <About></About>
@@ -19,6 +21,6 @@ function HomePage() {
       <Footer></Footer>
     </div>
   );
-}
+};
 
 export default HomePage;
