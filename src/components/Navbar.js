@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from '../assets/logo2.png'
-import {Link} from 'react-scroll'
+import {Link } from 'react-scroll'
 import { NavHashLink } from 'react-router-hash-link';
+
+
+
  
 const Navbar = () => {
     const [nav, setNav]= useState(false);
@@ -18,7 +21,7 @@ const Navbar = () => {
           {/* menu */}
                 <ul className=" hidden md:flex">
                     <li> <NavHashLink to="/blogs#" > Blogs</NavHashLink></li>
-                    <li><Link  to="home" smooth={true} duration={500}>Home</Link></li>
+                    <li><Link  to="home" smooth={true} duration={500} >Home</Link></li>
                     <li><Link  to="about" smooth={true} duration={500}>About</Link></li>
                     <li><Link  to="skill" smooth={true} duration={500}>Skill</Link></li>
                     <li><Link  to="work" smooth={true} duration={500}>Project</Link></li>
